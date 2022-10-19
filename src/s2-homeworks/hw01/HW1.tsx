@@ -4,7 +4,7 @@ import MessageSender from './message-sender/MessageSender'
 import s2 from '../../s1-main/App.module.css'
 import FriendMessage from './friend-message/FriendMessage'
 import avatar from './avatar.png'
-import {fdatasync} from "fs";
+
 
 /*
 * 1 - описать тип MessageType
@@ -49,7 +49,7 @@ export const friendMessage0: MessageType = {
     },
     message: {
         text: 'зеркальное сообщение для тренировки css', // можно менять
-        time: '22:00', // можно менять
+        time: '23:00', // можно менять
     },
 }
 
