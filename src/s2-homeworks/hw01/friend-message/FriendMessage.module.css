@@ -1,5 +1,6 @@
 .friendMessage {
-
+    text-align: right;
+    margin-right: 50px;
 }
 
 .friendImageAndText {
@@ -7,7 +8,10 @@
 }
 
 .friendImageAndText img {
-
+    width: 70px;
+    background-color: #EEDDFF;
+    border: 1px solid #9185a1;
+    border-radius: 100px;
 }
 
 .friendText {
@@ -23,6 +27,16 @@
 }
 
 .friendMessageText {
+
+    background-color: #dbe0e7;
+    margin-right: 20px ;
+    width: 246px;
+    height: 43px;
+    line-height: 43px;
+    color: #2d2d2d;
+    text-align: right;
+    border-radius: 10px;
+    font-family: sans-serif;
 
 }
 
