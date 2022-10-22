@@ -12,6 +12,7 @@ import {MessagePropsType} from "../message/Message";
 * */
 
 
+
 const FriendMessage = (props: MessagePropsType) => {
     return (
         <div

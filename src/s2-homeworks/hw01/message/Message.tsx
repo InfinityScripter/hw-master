@@ -18,7 +18,6 @@ message:MessageType
     }
 
 
-
 // нужно отобразить приходящие данные
 const Message = (props: MessagePropsType) => {
     return (
