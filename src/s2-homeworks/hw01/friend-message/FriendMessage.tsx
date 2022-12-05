@@ -3,16 +3,7 @@ import s from './FriendMessage.module.css'
 import {MessagePropsType} from "../message/Message";
 
 // создать тип вместо any и отобразить приходящие данные
-/*
-* 1 - описать тип MessageType
-* 2 - описать тип MessagePropsType в файле Message.tsx
-* 3 - в файле Message.tsx отобразить приходящие данные
-* 4 - выполнить пункты 2, 3 в файле FriendMessage.tsx
-* 5 - сделать стили в соответствии с дизайном
-* */
-
-
-
+// ВСЕ ТОЖЕ САМОЕ, ЧТО И В КОМПОНЕНТЕ Message -ПОЭТОМУ ПОДСКАЗОК МЕНЬШЕ
 const FriendMessage = (props: MessagePropsType) => {
     return (
         <div
@@ -24,7 +15,6 @@ const FriendMessage = (props: MessagePropsType) => {
                     id={'hw1-friend-avatar-' + props.message.id}
                     // создаёт студент
                     src={props.message.user.avatar}
-                    
                     //
                 />
                 <div className={s.friendText}>

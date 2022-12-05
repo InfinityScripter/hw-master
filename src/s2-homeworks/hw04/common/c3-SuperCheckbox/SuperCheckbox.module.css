@@ -1,14 +1,14 @@
 .label {
     display: flex;
     align-items: center;
-
     cursor: pointer;
+
 }
 
 /*input[type="checkbox"] - no*/
 
 .checkbox {
-    appearance: none;
+    /*appearance: none;*/
     /*Свойство appearance изменяет внешний вид элемента интерфейса, при сохранении его функции.
        Если задать значение none, то чекбокс пропадет, но по нему, тем не менее,
        можно щелкать и состояние чекбокса будет меняться*/
@@ -28,14 +28,14 @@
 }
 
 .checkbox:checked {
-    appearance: none;
-
-    background-image: url('checked.svg');
-    /*background: #99ff99;*/
+    background-color: #06c;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23fff' d='M19 3H5c-1.11 0-2 .89-2 2v14c0 1.1.9 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.11-.89-2-2-2zm-9 14L5 9l1.41-1.41L10 13.17l7.59-7.59L19 8l-9 9z'/%3E%3C/svg%3E");
 }
 
 .checkbox:focus {
     border-color: #0059b3;
+
+
 }
 
 .spanClassName {
